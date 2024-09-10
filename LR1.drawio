@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.12">
+  <diagram name="Страница — 1" id="I9glVK34uMOIIhCmouV8">
+    <mxGraphModel dx="1765" dy="1006" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-2" value="&lt;div style=&quot;font-size: 18px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &lt;font style=&quot;font-size: 18px;&quot;&gt;Начало&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="226" y="182" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;start, end, step&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="226" y="293" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-5" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;x = start&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;x &amp;lt;= end&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="226" y="404" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;y = sin(x)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="226" y="515" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Вывод x, y&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="226" y="622" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-8" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;x += step&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;strokeWidth=2;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="226" y="737" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Конец&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="226" y="846" width="192" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="VlSSxv7AJhl0e9X_O5Ki-3" target="VlSSxv7AJhl0e9X_O5Ki-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="286" as="sourcePoint" />
+            <mxPoint x="330" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-13" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VlSSxv7AJhl0e9X_O5Ki-5" target="VlSSxv7AJhl0e9X_O5Ki-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="398" as="sourcePoint" />
+            <mxPoint x="330" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-14" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VlSSxv7AJhl0e9X_O5Ki-6" target="VlSSxv7AJhl0e9X_O5Ki-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="510" as="sourcePoint" />
+            <mxPoint x="322" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-17" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VlSSxv7AJhl0e9X_O5Ki-7" target="VlSSxv7AJhl0e9X_O5Ki-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="606" as="sourcePoint" />
+            <mxPoint x="322" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-18" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VlSSxv7AJhl0e9X_O5Ki-8" target="VlSSxv7AJhl0e9X_O5Ki-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="726" as="sourcePoint" />
+            <mxPoint x="322" y="694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-19" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VlSSxv7AJhl0e9X_O5Ki-9" target="VlSSxv7AJhl0e9X_O5Ki-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="830" as="sourcePoint" />
+            <mxPoint x="321.8" y="814" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="410" y="622" width="186" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="VlSSxv7AJhl0e9X_O5Ki-28">
+          <mxGeometry x="136" width="50" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" edge="1" parent="VlSSxv7AJhl0e9X_O5Ki-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="31.5" as="sourcePoint" />
+            <mxPoint x="136" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlSSxv7AJhl0e9X_O5Ki-30" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Выводим значения функции&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;для каждого аргумента (x|y&lt;/font&gt;)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="621" width="264" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
